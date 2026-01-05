@@ -1,0 +1,32 @@
+# Excel Projects — Data Analysis
+
+This folder contains Excel workbooks demonstrating structured analysis of transactional data with business-relevant metrics.
+
+## Files -> 2025
+
+### `day5_excel_basics.xlsx`
+This workbook contains a transactions dataset and an accompanying analysis sheet. It is designed to:
+- Store transaction records with dates, user IDs, amounts, and categories
+- Calculate key analytical metrics using structured Excel tables and formulas
+- Provide business-oriented insights such as total revenue, average transaction value, and category filtering
+
+## Metrics Calculated
+
+The analysis sheet includes the following:
+- **Total transaction amount**
+- **Average transaction amount**
+- **Total number of transactions**
+- **Number of transactions by category**
+- **Total Crypto transaction amount**
+- **Flags for high value transactions**
+
+These metrics utilize table formulas and conditional aggregation to support clear, decision-ready summaries.
+
+## Purpose
+
+This workbook demonstrates how Excel can be used effectively to:
+- Organize raw data using tables
+- Perform conditional analysis with formulas
+- Generate structured insights suitable for business and financial reporting
+
+This file is part of the data analytics portfolio and supports real-world analytical reasoning.
