@@ -1,0 +1,10 @@
+### `day6_excel_pivot_dashboard.xlsx`
+
+This workbook extends the transaction analysis by introducing pivot tables and a summary dashboard.
+
+It includes:
+- Pivot tables summarizing revenue by category and activity by user
+- A dashboard sheet with key KPIs and a revenue breakdown visualization
+- Structured layout designed for executive-level review
+
+The file demonstrates how Excel pivot tables support fast aggregation and how dashboards communicate insights clearly and efficiently.
