@@ -1,8 +1,8 @@
-# Day 1 – Environment Setup
+Day 1 – Environment Setup
 
 This folder documents my Day 1 setup for my Data Analytics journey.
 
-## Tools Installed
+Tools Installed
 - Anaconda
 - VS Code
 - Google Sheets
@@ -11,5 +11,5 @@ This folder documents my Day 1 setup for my Data Analytics journey.
 - Dune Analytics
 - Flipside Crypto
 
-## Status
+Status
 Day 1 setup completed successfully.
