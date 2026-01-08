@@ -38,3 +38,7 @@ FROM → JOIN → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
 
 
 If you understand this order, everything clicks.
+
+
+❌ WHERE → filters rows
+✅ HAVING → filters aggregated results
