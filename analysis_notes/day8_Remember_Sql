@@ -42,3 +42,19 @@ If you understand this order, everything clicks.
 
 ❌ WHERE → filters rows
 ✅ HAVING → filters aggregated results
+
+
+
+SQL does not run top-to-bottom the way we write it.
+
+SQL runs in a fixed internal order:
+
+
+FROM
+WHERE
+GROUP BY
+HAVING
+SELECT   ← alias is created HERE
+ORDER BY
+
+Aliases exist only after SELECT runs.
