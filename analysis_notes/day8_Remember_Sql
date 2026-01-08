@@ -1,0 +1,40 @@
+Keyword	Think
+  
+FROM	Where data comes from
+JOIN	Combine tables
+WHERE	Remove rows
+GROUP BY	Create buckets
+HAVING	Remove buckets
+SELECT	What to show
+
+  SELECT
+  c.country,
+  COUNT(o.order_id) AS total_orders,
+  SUM(o.amount) AS revenue
+FROM customers c
+INNER JOIN orders o
+  ON c.customer_id = o.customer_id
+WHERE o.amount >= 50
+GROUP BY c.country
+HAVING SUM(o.amount) >= 500
+ORDER BY revenue DESC;
+
+Read this in English:
+
+1️⃣ Join customers to orders
+2️⃣ Remove small orders
+3️⃣ Group by country
+4️⃣ Keep only strong countries
+5️⃣ Rank them
+
+This is real analyst SQL.
+
+
+
+  Think of SQL as a pipeline.
+SQL always runs in this order (this matters a LOT):
+
+FROM → JOIN → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
+
+
+If you understand this order, everything clicks.
