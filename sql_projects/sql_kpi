@@ -1,0 +1,22 @@
+Write queries that answer:
+
+🔹 KPI 1 — Total Revenue
+  
+SELECT SUM(Amount) AS total_revenue
+FROM transactions;
+
+🔹 KPI 2 — High-Value Revenue Share
+  
+SELECT
+  SUM(CASE WHEN Amount >= 200 THEN Amount ELSE 0 END) * 1.0 /
+  SUM(Amount) AS high_value_revenue_ratio
+FROM transactions;
+
+🔹 KPI 3 — Revenue by Category
+  
+SELECT
+  Category,
+  SUM(Amount) AS revenue
+FROM transactions
+GROUP BY Category
+ORDER BY revenue DESC;
