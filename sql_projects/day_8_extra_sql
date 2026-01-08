@@ -1,0 +1,26 @@
+SELECT
+  category,
+  SUM(CASE WHEN amount >= 200 THEN amount ELSE 0 END) AS high_value_revenue,
+  COUNT(CASE WHEN amount >= 200 THEN 1 END) AS high_value_transactions
+FROM transactions
+GROUP BY category;
+
+
+“Where does our real money come from?”
+
+This is executive-level analysis.
+
+
+  SELECT
+  category,
+  SUM(amount) AS total_revenue,
+  RANK() OVER (ORDER BY SUM(amount) DESC) AS revenue_rank
+FROM transactions
+GROUP BY category;
+
+
+Rankings
+
+Trends
+
+Performance comparisons
