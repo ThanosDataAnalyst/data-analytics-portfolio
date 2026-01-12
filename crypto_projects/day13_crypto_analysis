@@ -1,0 +1,41 @@
+- KPI calculations
+
+- Short markdown explanations
+
+- Clean outputs
+
+Markdown example:
+ Crypto Transaction Analysis
+
+This analysis evaluates transaction volume, category concentration,
+and high-value exposure to support operational and risk monitoring.
+
+
+  PART 5 — YOUR FIRST CRYPTO DASHBOARD (LOGIC, NOT TOOL)
+
+Your dashboard should answer 3 questions:
+
+Q1: Where does the value come from?
+
+→ Revenue / volume by category
+
+Q2: How concentrated is risk?
+
+→ High-value transaction share
+
+Q3: Are there trends?
+
+→ (Later with time data)
+
+  # Total volume
+df["Amount"].sum()
+
+# Volume by category
+df.groupby("Category")["Amount"].sum()
+
+# High-value transactions
+high_value = df[df["Amount"] >= 200]
+
+# Share of high-value volume
+high_value["Amount"].sum() / df["Amount"].sum()
+Even in Excel or Python, this logic is what matters.
