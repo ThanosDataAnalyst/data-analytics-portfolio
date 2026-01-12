@@ -1,2 +1,19 @@
-crypto_dashboards
-hey
+A dashboard is not:
+❌ every chart you can make
+❌ everything you calculated
+
+A dashboard answers questions.
+
+Your crypto dashboard must answer only these 3:
+
+Q1️⃣ How much value is flowing through the system?
+
+→ Total Volume
+
+Q2️⃣ Where does that value come from?
+
+→ Volume by Category
+
+Q3️⃣ How risky is the flow?
+
+→ High-Value Transaction Concentration
