@@ -2,3 +2,9 @@ python_projects
 
 df.groupby("Category")["Amount"].sum().plot(kind="bar")
 
+
+- Used Python (pandas) to analyze transactional datasets and calculate revenue, category performance, and summary metrics.
+
+- Automated data transformations and exploratory analysis using Python to support business and risk insights.
+
+- Created reproducible analysis workflows in Jupyter Notebook for reporting and decision support.
