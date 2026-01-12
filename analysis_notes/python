@@ -19,3 +19,17 @@ Python handles these cleanly.
 If asked again, you can say:
 
 “I use Python when analysis requires multi-step transformations, conditional logic, time-based calculations, or reproducible workflows that would be inefficient or error-prone in Excel or SQL.”
+
+
+
+SQL → PYTHON MAPPING (IMPORTANT)
+
+What you already know:
+
+Concept	SQL	Python
+Filter	WHERE	df[df[...]]
+Group	GROUP BY	groupby()
+Conditional	CASE WHEN	if / np.where
+Aggregation	SUM, AVG	sum(), mean()
+
+This is why Python felt familiar — it’s the same thinking.
