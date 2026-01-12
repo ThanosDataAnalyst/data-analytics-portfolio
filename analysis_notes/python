@@ -3,3 +3,14 @@
 Correct answer:
 
 “When I need reproducible analysis, automation, or more complex transformations than Excel or SQL can easily handle.”
+
+
+A complex transformation is when:
+
+Excel becomes messy or manual
+
+SQL becomes hard to read or maintain
+
+You need logic + repetition + flexibility
+
+Python handles these cleanly.
