@@ -17,3 +17,15 @@ Q2️⃣ Where does that value come from?
 Q3️⃣ How risky is the flow?
 
 → High-Value Transaction Concentration
+
+
+Excel_projects/day14_crypto_dashboard.xlsx
+
+[ Total Volume ]   [ High-Value Share % ]
+
+[   Volume by Category Bar Chart   ]
+
+This dashboard monitors crypto transaction activity by visualizing total volume, category concentration, and high-value transaction exposure.
+A high share of value concentrated in large transactions may indicate increased operational and risk sensitivity.
+
+Its all on the Excel file Excel_projects/day6_crypto_dashboard
