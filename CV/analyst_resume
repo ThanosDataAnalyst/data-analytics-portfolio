@@ -21,3 +21,9 @@ Delivered actionable insights by translating analytical findings into clear busi
 Performed exploratory analysis on crypto-related transaction data to assess volume trends and category concentration risk.
 
 Developed data models suitable for monitoring operational and financial risk in crypto environments.
+
+-  Analyzed crypto transaction data using SQL-style aggregations and Python to assess volume, concentration, and risk exposure.
+
+Developed KPIs to monitor high-value transaction share and category dependency in crypto-related datasets.
+
+Built reproducible crypto analytics workflows to support operational and risk-focused decision-making.
