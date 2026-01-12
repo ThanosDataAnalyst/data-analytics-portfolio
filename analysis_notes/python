@@ -14,3 +14,8 @@ SQL becomes hard to read or maintain
 You need logic + repetition + flexibility
 
 Python handles these cleanly.
+
+
+If asked again, you can say:
+
+“I use Python when analysis requires multi-step transformations, conditional logic, time-based calculations, or reproducible workflows that would be inefficient or error-prone in Excel or SQL.”
