@@ -1,0 +1,133 @@
+🔹 CATEGORY 1 — Conditional Logic Across Many Rules
+Example:
+
+“Classify transactions into risk levels”
+
+Rules like:
+
+Amount > 500 → High Risk
+
+Crypto & Amount > 200 → Medium Risk
+
+Else → Low Risk
+
+Python (clean & scalable):
+def risk_level(row):
+    if row["Amount"] > 500:
+        return "High"
+    elif row["Category"] == "Crypto" and row["Amount"] > 200:
+        return "Medium"
+    else:
+        return "Low"
+
+df["Risk_Level"] = df.apply(risk_level, axis=1)
+
+
+🔹 Hard in Excel
+🔹 Ugly in SQL
+🔹 Clean in Python
+
+
+
+🔹 CATEGORY 2 — Multi-Step Data Cleaning
+Example:
+
+Raw data has:
+
+Missing values
+
+Duplicates
+
+Inconsistent category names
+
+Python:
+
+df = df.drop_duplicates()
+df["Category"] = df["Category"].str.strip().str.title()
+df = df.dropna()
+
+
+Excel:
+❌ Manual
+❌ Error-prone
+
+SQL:
+❌ Repetitive
+❌ Temporary
+
+
+
+🔹 CATEGORY 3 — Time-Based Transformations
+Example:
+
+“Calculate rolling 7-day averages”
+
+Python:
+
+df["Rolling_7D"] = df["Amount"].rolling(7).mean()
+
+
+Excel:
+❌ Complex formulas
+❌ Hard to audit
+
+SQL:
+❌ Advanced window functions
+
+
+
+🔹 CATEGORY 4 — Feature Engineering (Analyst Level)
+Example:
+
+“Create new metrics from existing ones”
+
+Average transaction per user
+
+Revenue per category per day
+
+% change week-over-week
+
+Python:
+
+df["Pct_Change"] = df["Amount"].pct_change()
+
+
+This is very common in real jobs.
+
+
+
+🔹 CATEGORY 5 — Automation & Reproducibility (VERY IMPORTANT)
+Example:
+
+“Run the same analysis every week on new data”
+
+Python:
+
+One notebook
+
+One click
+
+Same results
+
+Excel:
+❌ Manual copy-paste
+❌ Version chaos
+
+SQL:
+❌ Depends on environment
+
+
+🔹 CATEGORY 6 — Combining Multiple Data Sources
+Example:
+
+CSV + Excel + API data
+
+On-chain + off-chain data
+
+Python:
+
+df1.merge(df2, on="TransactionID")
+
+
+Excel:
+❌ VLOOKUP hell
