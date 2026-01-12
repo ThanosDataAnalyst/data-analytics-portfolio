@@ -1,1 +1,4 @@
 python_projects
+
+df.groupby("Category")["Amount"].sum().plot(kind="bar")
+
