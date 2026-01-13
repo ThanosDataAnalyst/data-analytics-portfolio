@@ -12,5 +12,4 @@ This folder contains the setup and foundations for my Data Analytics journey.
 - Dune Analytics
 - Flipside Crypto
 
-## Notes
-Starting from zero knowledge and building skills step by step.
+
