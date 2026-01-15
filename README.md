@@ -1,9 +1,8 @@
 # data-analytics-portfolio
-# Day 1 – Environment Setup
 
 This folder contains the setup and foundations for my Data Analytics journey.
 
-## Tools Installed
+## Tools Used
 - Anaconda (Python)
 - VS Code
 - Google Sheets
@@ -11,5 +10,6 @@ This folder contains the setup and foundations for my Data Analytics journey.
 - GitHub
 - Dune Analytics
 - Flipside Crypto
+- Excel
 
 
