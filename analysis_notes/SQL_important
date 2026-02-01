@@ -1,0 +1,20 @@
+Before syntax, understand this:
+
+SQL runs in this order:
+FROM
+WHERE
+GROUP BY
+HAVING
+SELECT
+ORDER BY
+
+
+⚠️ This explains 90% of SQL confusion.
+
+WHERE → filters rows
+
+HAVING → filters groups
+
+CASE WHEN → creates logic inside SELECT
+
+Aggregates (SUM, COUNT, AVG) → collapse rows into metrics
