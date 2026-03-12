@@ -1,0 +1,24 @@
+Analytics Stack You'd Use
+
+Example answer:
+
+I typically think about the analytics stack in three layers: data collection, transformation, and decision dashboards.
+
+Example tools you can mention:
+
+Google BigQuery
+
+Snowflake
+
+dbt
+
+Looker
+
+Dune
+
+
+Ask this during the call:
+
+“What are the key growth metrics Somnia currently tracks — developer adoption, wallet activity, or ecosystem TVL — and where do you feel the biggest analytics gaps are?”
+
+This signals leadership-level thinking.
